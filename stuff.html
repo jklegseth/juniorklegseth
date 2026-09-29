@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Junior Klegseth: sTuFf - Random Clutter</title>
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <style type="text/css">
+    li {
+      list-style: none;
+      padding: 10px 0;
+    }
+
+    span,
+    a {
+      display: none;
+    }
+
+    p span {
+      font-size: .7em;
+    }
+
+    strong {
+      font-size: 1.5em;
+    }
+
+    .small {
+      color: #999;
+      font-size: 24px;
+      letter-spacing: 2px;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li>
+      <strong>sTuFf</strong>: <span>Random clutter</span><br />
+      <span class="small">
+        <super>*</super> sporadic profanity (what's so funny 'bout peace, love and profanity?), content may offend some
+      </span>
+    </li>
+    <li>
+      <a href="Junior Klegseth - Wagner Cycle.pdf" target="_blank">Wagner's Cycle</a>
+    </li>
+    <li>
+      <a href="Junior Klegseth - Laughing Like Heathens.pdf" target="_blank">Laughing Like Heathens</a>
+    </li>
+    <li>
+      <a href="Junior Klegseth - Revised Standard Version.pdf" target="_blank">Revised Standard Version</a>
+    </li>
+    <li>
+      <a href="Klegseth-NR Ten Text Messages That Came With the Cellphone.pdf" target="_blank">Ten Text Messages That
+        Came With the Cellphone</a>
+    </li>
+    <li>
+      <a href="Junior Klegseth - The Second Law of Thermodynamics.pdf" target="_blank">The Second Law of
+        Thermodynamics</a>
+    </li>
+    <li>
+      <a href="JuniorKlegseth_Babylon.pdf" target="_blank">Babylon (poem)</a>
+    </li>
+    <li><br />
+      <span>Other <strong>sTuFf</strong> - Quora answers on fiction</span>
+    </li>
+    <li>
+      <a target="_blank" href="https://qr.ae/pGmmSF">What is the symbolism of the lambs in Silence of the Lambs?</a>
+    </li>
+    <li>
+      <a target="_blank" href="https://qr.ae/pGmmSN">Who are some of the most memorable tragic figures, either in
+        fiction, movies
+        or in real life? Why?</a>
+    </li>
+    <li>
+      <a target="_blank" href="https://qr.ae/pGmB4t">What are some cool hacks for suspending disbelief when telling a
+        story?</a>
+    </li>
+    <li><a target="_blank" href="https://qr.ae/pGmm3v">What is the highest purpose of a writer?</a></li>
+    <li><a target="_blank" href="https://qr.ae/pGmm3A">Do fiction authors have their story mapped out before writing or
+        find the
+        plot along the way?</a></li>
+    <li><br />
+      <span>Other, other <strong>sTuFf</strong></span>
+    </li>
+    <li>
+      <a target="_blank" href="408/">My experimental fiction starter</a>
+    </li>
+    <li><br />
+      <span>Other, other, other <strong>sTuFf</strong> - Music on Apple Music</span>
+    </li>
+    <li>
+      <a target="_blank" href="https://music.apple.com/us/artist/junior-lee-klegseth/259613487">Junior Lee Klegseth -
+        Long Way Home</a>
+    </li>
+    <li>
+      <a target="_blank" href="https://music.apple.com/us/artist/the-redhot-blues/1129594615">The RedHot Blues</a>
+    </li>
+    <li>
+      <a target="_blank" href="https://music.apple.com/us/artist/the-shafran-klegseth-band/1132337090">The
+        Shafran-Klegseth Band</a>
+    </li>
+    <!-- <li>
+        <span>Other <strong>sTuFf</strong></span>
+      </li>
+      <li>
+        <a href="408/GiveHead.html" target="_blank">Give Head! - the Online Random Headline Generator</a> <span>Because sometimes bullshit makes more sense than reality!</span>
+      </li>
+      <li>
+        <a href="../king_george_ii/" target="_blank">King George II, A Drownéd Man, A Fool, and a Madman : A Shakespearean Tramedy</a>
+      </li> -->
+  </ul>
+  <p>
+    <br />
+    <span>&copy; All rights reserved.</span>
+  </p>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.text-effects.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      $('li').each(function () {
+        $(this).css('margin-left', Math.floor(Math.random() * 401) - 200 + 'px');
+      });
+      var speed = 2000;
+      var elements = $("span, a");
+      var length = elements.length;
+      var index = 0;
+      var timer = setInterval(doScramble, speed);
+
+      function doScramble() {
+        $(elements.eq(index)).show().scrambledWriter();
+        index++;
+        if (index >= length) {
+          clearInterval(timer);
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>

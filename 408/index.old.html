@@ -1,0 +1,534 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<!-- Site Title -->
+<title>CSUN English 408 : Professor Pousson</title>
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+
+<style type="text/css">
+#right_side img { margin-bottom:10px; }
+
+table#list {
+  font-family: verdana, arial, sans-serif;
+  font-size: 12px;
+  color: #2153AA;
+	margin:10px 0 0 10px;
+}
+
+table#list td { 
+	border-color:#cccc66;
+	padding:10px 5px;
+	color:#fff;
+	text-align:center;
+
+}
+
+table#list td a {
+  color: #2153AA;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+table#list th { 
+  background-color: #2153AA;
+	color:#fff;
+	border-color:#cccc66;
+	padding:10px;
+	text-align:center;
+}
+
+table#list .firstCell { color:#2153AA; text-align:left; }
+
+#info p {margin-left:15px; margin-right:20px;}
+#info img {margin:15px; float:left;}
+#info h1 {margin-left:15px;}
+/* the style starts here */
+a.tooltip {color:#c00;}
+a.tooltip b {display:none;}
+a.tooltip:hover {border:0; position:relative; z-index:500; text-decoration:none;}
+a.tooltip:hover b {display:block; position:absolute; top:20px; left:-25px; padding:5px; font-weight:normal; color:#000; border:1px solid #888; background:#ffc; width:250px;padding-top:10px;line-height:19px;text-decoration:none;}
+a.tooltip:hover b em {position:absolute; left:20px; top:-6px; width:11px; height:6px; background:#fff url(img/tooltip.gif) 0 0; display:block; font-size:1px;}
+</style>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+function changeDiv (divID) {
+	if (divID.length > 3) {
+		document.getElementById("blank").style.display = "none";
+		document.getElementById("saunders").style.display = "none";
+		document.getElementById("murakami").style.display = "none";
+		document.getElementById("link").style.display = "none";
+		document.getElementById("kafka").style.display = "none";
+		document.getElementById("borges").style.display = "none";
+		document.getElementById("cisneros").style.display = "none";
+		document.getElementById("lispector").style.display = "none";
+		document.getElementById("gogol").style.display = "none";
+		document.getElementById("davis").style.display = "none";
+		document.getElementById("cisneros").style.display = "none";
+		document.getElementById("calvino").style.display = "none";
+		document.getElementById("bender").style.display = "none";
+		document.getElementById("barthelme").style.display = "none";
+		document.getElementById("barth").style.display = "none";
+		document.getElementById("atwood").style.display = "none";
+		var div = document.getElementById(divID);
+		div.style.display = "";
+	} else {
+		document.getElementById("blank").style.display = "";
+	}
+
+}
+//-->
+</SCRIPT>
+</head>
+
+<body onload="document.getElementById('ddlAuthors').selectedIndex = 0;">
+
+<div id="page_wrapper">
+
+<div id="header_wrapper">
+
+<div id="header">
+
+<h1>CSUN<font color="#FFDF8C">English 408</font></h1>
+<h2>Professor Pousson</h2>
+<h2></h2>
+
+</div>
+
+<div id="navcontainer" style="display:none;">
+
+<ul id="navlist">
+<li id="active"><a href="#" id="current">Experiment</a></li>
+<li><a href="#">Item two</a></li>
+<li><a href="#">Item three</a></li>
+<li><a href="#">Item four</a></li>
+<li><a href="#">Item five</a></li>
+</ul>
+</div>
+
+</div>
+
+<div id="left_side">
+
+<h3>Experiments</h3>
+
+<p style="color:#ccc;"><span style="font-size:120%;font-weight:bold;">=&gt;</span> Experiment #1 : handed out in class</p>
+<p style="color:#ccc;"><span style="font-size:120%;font-weight:bold;">=&gt;</span> Experiment #2 : handed out in class</p>
+<p style="color:#ccc;"><span style="font-size:120%;font-weight:bold;">=&gt;</span> Experiment #3 : due February 19</p>
+<p style="color:#ccc;"><span style="font-size:120%;font-weight:bold;">=&gt;</span> Experiment #4 : due February 26</p>
+<p><span style="font-size:120%;font-weight:bold;">=&gt;</span> Experiment #5 : due March 4</p>
+<p><span style="font-size:120%;font-weight:bold;">=&gt;</span> Experiment #6 : due March 11</p>
+
+<h3>Quotes</h3>
+
+<div class='featurebox_side'>
+      "Myths can't be translated as they did in their ancient soil. We can only find our own meaning in our own time." <br />
+- Margaret Atwood</div>
+
+
+<div class='featurebox_side'>
+"The distinction between children and adults, while probably useful for some purposes, is at bottom a specious one, I feel. There are only individual egos, crazy for love."<br />- Donald Barthelme
+</div>
+<div class='featurebox_side'>
+	"There is a concept which corrupts and upsets all others. I refer not to Evil, whose limited realm is that of ethics; I refer to the infinite."<br />- Jorge Luis Borges
+</div>
+
+<div class='featurebox_side'>
+	"There are only two things. Truth and lies. Truth is indivisible, hence it cannot recognize itself; anyone who wants to recognize it has to be a lie."<br />- Franz Kafka
+</div>
+
+<div class='featurebox_side'>	
+	"I don't want to have the terrible limitation of those who live only on what makes sense. Not me - I want a invented truth."<br />- Clarice Lispector
+</div>
+
+</div>
+
+<div id="right_side">
+	<select id="ddlAuthors" onchange="changeDiv(this.value);">
+		<option value="blank" selected>Choose an author</option>
+		<option value="atwood">Margaret Atwood</option>
+		<option value="barth">John Barth</option>
+		<option value="barthelme">Donald Barthelme</option>
+		<option value="bender">Aimee Bender</option>
+		<option value="borges">Jorge Luis Borges</option>
+		<option value="calvino">Italo Calvino</option>
+		<option value="cisneros">Sandra Cisneros</option>
+		<option value="davis">Lydia Davis</option>
+		<option value="kafka">Franz Kafka</option>
+		<option value="lispector">Clarice Lispector</option>
+		<option value="link">Kelly Link</option>
+		<option value="murakami">Haruki Murakami</option>
+		<option value="gogol">Nikolai Gogol</option>
+		<option value="saunders">George Saunders</option>
+	</select>
+	<div id="atwood" style="display:none;">
+		<h3>Margaret Atwood</h3>
+		<img src="authors/atwood.jpg" width="200" height="223" alt="" />
+		<img src="authors/atwood2.jpg" width="200" height="190" alt="" />
+		<object width="200" height="160"><param name="movie" value="http://www.youtube.com/v/VMrz_ivl8jo&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/VMrz_ivl8jo&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="200" height="160"></embed></object>
+			<div class="desc">Margaret Atwood with Bill Moyers</div>
+	</div>
+	<div id="barth" style="display:none;">
+		<h3>John Barth</h3>
+		<img src="authors/barth.jpg" width="200" height="305" alt="" />
+		<img src="authors/barth2.jpg" width="200" height="292" alt="" />
+		<div class="desc"><a href="http://www.themodernword.com/SCRIPTorium/barth_interview.html" style="text-decoration:underline;">Interview</a></div>
+		<div class="desc"><a href="http://www.davidlouisedelman.com/barth/" style="text-decoration:underline;">The John Barth Information Center</a></div>
+	</div>
+	<div id="barthelme" style="display:none;">
+		<h3>Donald Barthelme</h3>
+		<img src="authors/barthelme.jpg" width="200" height="258" alt="" />
+		<img src="authors/barthelme2.jpg" width="200" height="308" alt="" />
+		<object width="200" height="160"><param name="movie" value="http://www.youtube.com/v/ozc_wkc28nc&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/ozc_wkc28nc&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="200" height="160"></embed></object>
+			<div class="desc">"40 Stories" MTV PSA Timothy Hutton</div>
+	</div>
+	<div id="bender" style="display:none;">
+		<h3>Aimee Bender</h3>
+		<img src="authors/bender.jpg" width="200" height="200" alt="" />
+		<img src="authors/aimeebender1.jpg" width="200" height="97" alt="" />
+		<object width="200" height="160"><param name="movie" value="http://www.youtube.com/v/GcuKsL4L8Fo&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/GcuKsL4L8Fo&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="200" height="160"></embed></object>
+			<div class="desc">Aimee at Authors@Google</div>
+	</div>
+	<div id="borges" style="display:none;">
+		<h3>Jorge Luis Borges</h3>
+			<img src="authors/borges_s.jpg" width="200" height="191" alt="" />
+			<img src="authors/kafka4_sm.gif" width="200" height="286" alt="" />
+			<img src="authors/borges2s.jpg" width="200" height="158" alt="" />
+		<object width="200" height="160"><param name="movie" value="http://www.youtube.com/v/nN5hDQgMI2g&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/nN5hDQgMI2g&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="200" height="160"></embed></object>
+			<div class="desc">The Circular Ruins</div>
+	</div>
+	<div id="calvino" style="display:none;">
+		<h3>Italo Calvino</h3>
+		<img src="authors/calvino_2.jpg" width="200" height="174" alt="" /><img src="authors/calvin1.jpg" width="200" height="257" alt="" />
+		<object width="200" height="160"><param name="movie" value="http://www.youtube.com/v/sf1PIAPdZWg&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/sf1PIAPdZWg&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="200" height="160"></embed></object>
+			<div class="desc">"Good For Nothing" Winner of the Stewart Prize, 1998</div>
+	</div>
+	
+	<div id="cisneros" style="display:none;">
+		<h3>Sandra Cisneros</h3>
+		<img src="authors/cisneros.jpg" width="200" height="346" alt="" />
+		<img src="authors/cisneros2.jpg" width="200" height="197" alt="" />
+			<object width="200" height="160"><param name="movie" value="http://www.youtube.com/v/jd6hHx418Qg&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/jd6hHx418Qg&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="200" height="160"></embed></object>
+			<div class="desc">"The House On Mango Street"</div>
+	</div>
+	<div id="davis" style="display:none;">
+		<h3>Lydia Davis</h3>
+		<img src="authors/ldavis.jpg" width="200" height="284" alt="" />
+		<img src="authors/ldavis2.jpg" width="200" height="336" alt="" /><br />
+		<div class="desc"><a href="http://www.boston.com/news/globe/ideas/articles/2007/04/29/qa_with_lydia_davis/" style="text-decoration:underline;">Q&amp;A with Lydia Davis</a></div>
+			<object width="200" height="160"><param name="movie" value="http://www.youtube.com/v/pdDSe-6AEt8&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/pdDSe-6AEt8&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="200" height="160"></embed></object>	
+			<div class="desc">"The House Behind"</div>
+	</div>
+	<div id="gogol" style="display:none;">
+		<h3>Nikolai Gogol</h3>
+		<img src="authors/Gogol.jpg" width="200" height="246" alt="" />
+		<img src="authors/gogol2.jpg" width="200" height="228" alt="" />
+		<div class="desc"><a href="http://www.youtube.com/watch?v=CcYIhb9lDI8" style="text-decoration:underline;">"Diary of a Madman" at YouTube</a></div>
+	</div>
+	
+
+
+	<div id="kafka" style="display:none;">
+		<h3>Franz Kafka</h3>
+		<img src="authors/kafka2s.jpg" width="200" height="292" alt="" />
+		<img src="authors/kafka5s.jpg" width="200" height="262" alt="" />
+		<img src="authors/Kafka3s.jpg" width="200" height="207" alt="" />
+		<object width="200" height="160"><param name="movie" value="http://www.youtube.com/v/wOrhpRtEXH8&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/wOrhpRtEXH8&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="200" height="160"></embed></object>
+			<div class="desc">The Metamorphosis of Franz Kafka</div>
+	</div>
+	<div id="link" style="display:none;">
+		<h3>Kelly Link</h3>
+		<img src="authors/link.jpg" width="200" height="232" alt="" />
+		<img src="authors/kellylink2.jpg" width="200" height="267" alt="" />
+		<object width="200" height="160"><param name="movie" value="http://www.youtube.com/v/6WPmq-gprbs&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/6WPmq-gprbs&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="200" height="160"></embed></object>
+			<div class="desc">Kelly Link at Authors@Google</div>
+	</div>
+	<div id="lispector" style="display:none;">
+		<h3>Clarice Lispector</h3>
+			<img src="authors/clarice-lispector.jpg" width="200" height="223" alt="" />
+			<img src="authors/clarice03.gif" width="200" height="275" alt="" />
+			<object width="200" height="160"><param name="movie" value="http://www.youtube.com/v/TMCKyLU8n54&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/TMCKyLU8n54&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="200" height="160"></embed></object>
+			<div class="desc">Photo Montage of Clarice Lispector</div>
+	</div>
+	<div id="murakami" style="display:none;">
+		<h3>Haruki Murakami</h3>
+			<img src="authors/murakami.jpg" width="200" height="299" alt="" />
+			<object  width="200" height="160"><param name="movie" value="http://www.youtube.com/v/yTE-4U-cN9s&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/yTE-4U-cN9s&rel=1" type="application/x-shockwave-flash" wmode="transparent"  width="200" height="160"></embed></object>
+			<div class="desc">Oscar Winning adaptation of "On Seeing the 100% Perfect Girl One Beautiful April Morning"</div>
+			
+			<object width="200" height="160"><param name="movie" value="http://www.youtube.com/v/PmjZr9tMwnk&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/PmjZr9tMwnk&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="200" height="160"></embed></object>
+			<div class="desc">"MASTERS OF INSANITY"</div>
+	</div>
+	
+	
+	
+	<div id="saunders" style="display:none;">
+		<h3>George Saunders</h3>
+			<img src="authors/saunders.jpg" width="200" height="258" alt="" />
+			<object width="200" height="160"><param name="movie" value="http://www.youtube.com/v/EQS65RAeoJU&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/EQS65RAeoJU&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="200" height="160"></embed></object>
+			<div class="desc">George Saunders at Authors@Google</div>
+			<objectwidth="200" height="160"><param name="movie" value="http://www.youtube.com/v/1m8CSpuckSY&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/1m8CSpuckSY&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="200" height="160"></embed></object>
+			<div class="desc">George Saunders Reads "Bohemians"</div>
+	</div>
+	<div id="blank">
+		<h3>Authors</h3>
+		<img src="authors/atwood.jpg" width="200" height="223" alt="" />
+			<div class="desc">Margaret Atwood</div>
+		<img src="authors/barthelme.jpg" width="200" height="258" alt="" />
+			<div class="desc">Donald Barthelme</div>
+			<img src="authors/borges_s.jpg" width="200" height="191" alt="" />
+			<div class="desc">Jorge Luis Borges</div>
+		<img src="authors/kafka2s.jpg" width="200" height="292" alt="" />
+			<div class="desc">Franz Kafka</div>
+			<img src="authors/clarice-lispector.jpg" width="200" height="223" alt="" />
+			<div class="desc">Clarice Lispector</div>
+			<img src="authors/calvin1.jpg" width="200" height="257" alt="" />
+			<div class="desc">Italo Calvino </div>
+		<img src="authors/barth.jpg" width="200" height="305" alt="" />
+			<div class="desc">John Barth</div>
+			<img src="authors/ldavis.jpg" width="200" height="284" alt="" />
+			<div class="desc">Lydia Davis</div>
+	</div>
+
+</div>
+
+<div id="content">
+
+<h3>English 408 Experiments</h3>
+
+<div class='featurebox_center'>
+Starting with Experiment #3, send your story as an attachment to <a href="mailto:eng408@blinddog.net">eng408@blinddog.net</a>. All stories received at that address will be posted here for download.
+</div>
+
+<p>
+</p>
+
+<h4>Experiment #5 Due March 4</h4>
+
+<p style="margin-left:10px;font-weight:bold;">Four Options For Getting the Documents [<a href="javascript:void(0);" onclick="document.getElementById('steps').style.display='';">Show</a>&nbsp;&nbsp;<a href="javascript:void(0);" onclick="document.getElementById('steps').style.display='none';">Hide</a>]</p>
+<ol id="steps" style="display:none;">
+	<li><strong>Read Online</strong>: Most, maybe all, of these postings can be read online just by clicking them and choosing Open.</li>
+	<li><strong>Download Each One Individually</strong>: to do this just click (or right click) the Download link next to each name. <strong>No Download link next to a name = no document received yet</strong>.</li>
+	<li><strong>Download Self-Extracting Archive</strong> of All Docs: This is an .EXE file, meaning you double click it and it opens the archive of all documents. You may get a security warning because EXE files <em>can</em> be dangerous. These aren't. But then, how well do you know me? <strong>One catch</strong>: archives only have the docs received to that point (go figure), so as more docs come in I will create a new archive and post it.</li>
+	<li><strong>Download ZIP Archive</strong> of All Docs: This is a ZIP file. If you have never used ZIP files you may as well ignore this. <strong>One catch</strong>: See #3</li>
+
+</ol>
+
+<table width="95%" id="list" cellspacing="0" border="1">
+<tr>
+	<th>Student Name</th>
+	<th>Experiment #3</th>
+	<th>Experiment #4</th>
+	<th>Experiment #5</th>
+	<th>Experiment #6</th>
+</tr>	
+<tr>
+	<td class="firstCell"><strong>ALL-IN-ONE</strong> <a href="javascript:void(0);" class="tooltip"><img src="img/questionmark.jpg" width="21" height="21" style="border:0;" alt="" /><em></em><b>This will download a <strong>self-extracting (EXE) or ZIP archive</strong> of all experiments received to date (updated each time new experiments are received). If you download this you do not need to download the individual files. See Options  above for more info.</b></a></td>
+	<td><a href="docs/Experiment3.exe" class="tooltip">Self-Extracting<em></em><b>This will download a <strong>self-extracting (EXE) archive</strong> of all experiments received to date (updated each time new experiments are received). If you download this you do not need to download the individual files. See Options  above for more info.</b></a> &nbsp;&nbsp;&nbsp;<a href="docs/Experiment3.zip" class="tooltip">ZIP<em></em><b>This will download a <strong>self-extracting (ZIP) archive</strong> of all experiments received to date (updated each time new experiments are received). If you download this you do not need to download the individual files. See Options  above for more info.</b></a><div style="font-size:10px;color:#2153AA;margin-top:3px;">Updated 2/20 11:30 PM (20 files)</div></td>
+		<td><a href="docs/4/Experiment4.exe" class="tooltip">Self-Extracting<em></em><b>This will download a <strong>self-extracting (EXE) archive</strong> of all experiments received to date (updated each time new experiments are received). If you download this you do not need to download the individual files. See Options  above for more info.</b></a> &nbsp;&nbsp;&nbsp;<a href="docs/4/Experiment4.zip" class="tooltip">ZIP<em></em><b>This will download a <strong>self-extracting (ZIP) archive</strong> of all experiments received to date (updated each time new experiments are received). If you download this you do not need to download the individual files. See Options  above for more info.</b></a><div style="font-size:10px;color:#2153AA;margin-top:3px;">Updated 2/27 10:00 AM (20 files)</div></td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+</tr>	
+<tr>
+	<td class="firstCell">Armine</td>
+	<td><a href="docs/Armine_experiment 3.doc">Download</a></td>
+	<td><a href="docs/4/Armine_Experiment 4.doc">Download</a></td>
+	<td><a href="docs/5/Armine_experiment 5.doc">Download</a></td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Beau</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	<td>Download</td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Ben</td>
+	<td><a href="docs/Ben_ex. 3.doc">Download</a></td>
+	<td><a href="docs/4/Ben_The Collector.doc">Download</a></td>
+	<td><a href="docs/5/Ben_Ex. 5.doc">Download</a></td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Bobby</td>
+	<td><a href="docs/Robert_Oulipo turnin story xp save.doc">Download</a></td>
+	<td><a href="docs/4/Bobby_Arbitrary Absurdity 2-26-08 xp save.doc">Download</a></td>
+	<td><a href="docs/5/Bobby_Experiment 5 Tracey and Charlie.doc">Download</a></td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Chris</td>
+	<td><a href="docs/Chris_Exercise 3- Endless Opening.doc">Download</a></td>
+	<td><a href="docs/4/Chris_Experiment.02.26.08.Fable.doc">Download</a></td>
+	<td><a href="docs/5/Chris_Experiment 3.4.08 Epistle.doc">Download</a></td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Doug</td>
+	<td><a href="docs/Doug_Experiment 3.doc">Download</a></td>
+	<td><a href="docs/4/Doug_English 408 - Lost marbles Exp  4.doc">Download</a></td>
+	<td><a href="docs/5/Doug_English 408 - Bike Girl Exp  5.doc">Download</a></td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Douglas</td>
+	<td><a href="docs/English 408 - Experiment 3 (Hell).doc">Download</a></td>
+	<td><a href="docs/4/Douglas_Experiment 4.doc">Download</a></td>
+	<td><a href="docs/5/Douglas Weaver Experiment 5.doc">Download</a></td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Greg G.</td>
+	<td><a href="docs/Greg_Reverse_Chronology_Exp3.doc">Download</a></td>
+	<td><a href="docs/4/GregG_Epistle.doc">Download</a></td>
+	<td><a href="docs/5/GregG_bagless.doc">Download</a></td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Greg P.</td>
+	<td><a href="docs/Greg_Filth.doc">Download</a></td>
+	<td>&nbsp;</td>
+	<td>Download</td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Heather</td>
+	<td><a href="docs/Heather_408ex3.doc">Download</a></td>
+	<td><a href="docs/4/Heather_experiment4.doc">Download</a></td>
+	<td><a href="docs/5/Heather_experiment5.doc">Download</a></td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">James</td>
+	<td><a href="docs/James_Experiment 3.doc">Download</a></td>
+	<td><a href="docs/4/James_Experiment 4.doc">Download</a></td>
+	<td><a href="docs/5/James_Experiment 5.doc">Download</a></td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Janice</td>
+	<td><a href="docs/Janice_Experiment 3.doc">Download</a></td>
+	<td><a href="docs/4/Janice_Experiment 4.doc">Download</a></td>
+	<td>Download</td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Jenn</td>
+	<td><a href="docs/Jenn_Ex3.doc">Download</a></td>
+	<td><a href="docs/4/Jenn_Ex4.doc">Download</a></td>
+	<td><a href="docs/5/Jenn_Ex5.doc">Download</a></td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">John</td>
+	<td><a href="docs/Experiment 3.doc">Download</a></td>
+	<td><a href="docs/4/John_Experiment 4 Epistolary.doc">Download</a></td>
+	<td><a href="docs/5/John_Experiment 5 vignettes.doc">Download</a></td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Junior</td>
+	<td><a href="docs/Headlines.doc">Download</a></td>
+	<td><a href="docs/4/Junior_Exp4.doc">Download</a></td>
+	<td><a href="docs/5/Junior_WagnerCycle.doc">Download</a></td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Lusine</td>
+	<td><a href="docs/English 408 exp.3.doc">Download</a></td>
+	<td><a href="docs/4/Lusine_Eng 408 Exp 4.pdf">Download</a></td>
+	<td><a href="docs/5/Lusine_Exp 5.pdf">Download</a></td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Mike</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	<td>Download</td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Peter</td>
+	<td><a href="docs/Peter Experiment Three.doc">Download</a></td>
+	<td><a href="docs/4/Peter_Experiment Four.doc">Download</a></td>
+	<td><a href="docs/5/Peter_Experiment Five.doc">Download</a></td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Rachel</td>
+	<td>&nbsp;</td>
+	<td><a href="docs/4/Rachel_fishy story.doc">Download</a></td>
+	<td>Download</td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Rhea</td>
+	<td><a href="docs/Rhea_Experiment3.doc">Download</a></td>
+	<td>&nbsp;</td>
+	<td>Download</td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Robby</td>
+	<td><a href="docs/Chronicle.doc">Download</a></td>
+	<td><a href="docs/4/Robby_Fable.doc">Download</a></td>
+	<td><a href="docs/5/Robby_FantasyScienceFiction.doc">Download</a></td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Robert</td>
+	<td><a href="docs/Robert_Exp3408.doc">Download</a></td>
+	<td><a href="docs/4/Robert_Experiment4.doc">Download</a></td>
+	<td>Download</td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Sara</td>
+	<td>&nbsp;</td>
+	<td><a href="docs/4/Sara_The dinner guest.doc">Download</a></td>
+	<td>Download</td>
+	<td>Download</td>
+</tr>	
+<tr>
+	<td class="firstCell">Scott</td>
+	<td><a href="docs/scott_experiment 3.doc">Download</a></td>
+	<td><a href="docs/4/Scott_experiment 4.doc">Download</a></td>
+	<td>Download</td>
+	<td>Download</td>
+</tr>
+</table>
+
+<table align="center" cellspacing="20">
+	<tr>
+		<td><img src="authors/bender.jpg" width="200" height="200" alt="" />
+			<div class="desc">Aimee Bender</div></td>
+		<td><img src="authors/saunders.jpg" width="200" height="258" alt="" />
+			<div class="desc">George Saunders</div></td>
+		<td><img src="authors/link.jpg" width="200" height="232" alt="" />
+			<div class="desc">Kelly Link</div></td>
+		</tr>
+	<tr>
+		<td><img src="authors/Gogol.jpg" width="200" height="246" alt="" />
+			<div class="desc">Nikolai Gogol</div></td>
+		<td>
+			<img src="authors/murakami.jpg" width="200" height="299" alt="" />
+			<div class="desc">Haruki Murakami </div></td>
+		<td>
+			<img src="authors/cisneros.jpg" width="200" height="346" alt="" />
+			<div class="desc">Sandra Cisneros </div></td>
+	</tr>
+</table>
+			
+
+</div>
+
+<div id="footer"><br />
+
+</div>
+
+</div>
+
+</body>
+
+</html>

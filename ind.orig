@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>sTuFf</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <style type="text/css">
+      
+      li {
+        list-style: none;
+        padding: 10px 0;
+      }
+      
+      span, a {
+        display: none;
+      }
+      
+      p span {
+        font-size: .7em;
+      }
+      
+      strong {
+        font-size: 1.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <strong>sTuFf</strong>: <span>My experimental short stories (PDF)</span>
+      </li>
+      <li>
+        <a href="Junior Klegseth - Wagner Cycle.pdf" target="_blank">Wagner's Cycle</a>
+      </li>
+      <li>
+        <a href="Junior Klegseth - Laughing Like Heathens.pdf" target="_blank">Laughing Like Heathens</a>
+      </li>
+      <li>
+        <a href="Junior Klegseth - Revised Standard Version.pdf" target="_blank">Revised Standard Version</a>
+      </li>
+      <li>
+        <a href="Klegseth-NR Ten Text Messages That Came With the Cellphone.pdf" target="_blank">Ten Text Messages That Came With the Cellphone</a>
+      </li>
+      <li>
+        <a href="Junior Klegseth - The Second Law of Thermodynamics.pdf" target="_blank">The Second Law of Thermodynamics</a>
+        <br / >
+      </li>
+      <li>
+        <span>If you like this kind of thing, here's info on some of the masters of experiemental fiction:</span>
+        <a href="408/" target="_blank">408 - ExperimentalFiction</a>
+        <br / >
+        <br / >
+      </li>
+      <!-- <li>
+        <span>Other <strong>sTuFf</strong></span>
+      </li>
+      <li>
+        <a href="408/GiveHead.html" target="_blank">Give Head! - the Online Random Headline Generator</a> <span>Because sometimes bullshit makes more sense than reality!</span>
+      </li>
+      <li>
+        <a href="../king_george_ii/" target="_blank">King George II, A Drownéd Man, A Fool, and a Madman : A Shakespearean Tramedy</a>
+      </li> -->
+    </ul>
+    <p>
+      <br / >
+      <br / >
+      <span>&copy; 2006-2014. All rights reserved. If you steal any of it I'll write a very bad story with you as the main character.</span>
+      <br />
+      </br>
+      <span><em>Wagner's Cycle</em> published online by LitChaos, <em>Revised Standard Version</em> and <em>Ten Text Messages That Came With the Cellphone</em> published in Northridge Review</span>
+    </p>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.text-effects.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      
+        $('li').each(function(){
+          $(this).css('margin-left', Math.floor(Math.random() * 401) - 200 + 'px');
+        });
+        var speed = 2000;
+        var elements = $("span, a");
+        var length = elements.length;
+        var index = 0;
+        var timer = setInterval(doScramble, speed);
+        
+        function doScramble(){
+          $(elements.eq(index)).show().scrambledWriter();
+          index++;
+          console.log(index);
+          if (index >= length) {
+            clearInterval(timer);
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

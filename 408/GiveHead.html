@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Give Head! : The Online Random Headline Generator</title>
+    <style type="text/css">
+      body {
+        width: 90%;
+      }
+      
+      body, p, div {
+        font-family: verdana, helvetica, sans-serif;
+        font-size: 10pt;
+        line-height: 19px;
+      }
+      
+      p a {
+        color: #660000;
+      }
+      
+      input { padding: 5px; }
+      
+    </style>
+  </head>
+  <body>
+    <img src="head.jpg" width="108" height="108" alt="" style="float:left;padding:10px 29px 10px 10px;"/>
+    <br/>
+    <h2>Welcome to Give Head!</h2>
+    <p style="max-width:600px;">
+      Yes, here we <a href="http://overheardinphilly.blogspot.com/2008/01/your-momma-says-i-give-better-head.html">give head</a>, up to forty times, for this is the online random headline generator, an experiment in randomness, hypertextuality and absurdity.
+    </p>
+    <div style="float:right;margin:10px;border:1px solid #660000;font-family:arial;padding:5px;width:420px;padding:5px;margin:5px;font-size:10px;">
+     <iframe width="420" height="315" src="//www.youtube.com/embed/kyBH5oNQOS0" frameborder="0" allowfullscreen></iframe>
+      <br/>
+      George Carlin: Seven Words You Can Never Say On TV
+      <br/>
+      <br/>
+      <iframe width="420" height="315" src="https://www.youtube.com/embed/FvPbxZmZxZ8" frameborder="0" allowfullscreen></iframe>
+      <br/>
+      History of the word "fuck" from <a href="http://www.maniacworld.com/f-81.htm">http://www.maniacworld.com/f-81.htm</a>
+      </div>
+      What you may want to know:
+      <ul style="width:65%;">
+        <li>
+          This page generates <a href="http://watchout4snakes.com/wo4snakes/Random/RandomSentence">random</a>
+          headlines based on parameters you can change (you can also leave as default).
+        </li>
+        <li>
+          The words used to generate the headlines were pulled from Google News and BBC Online except per below.
+        </li>
+        <li><strong><a href="http://lds.org/study/topics/profanity?lang=eng&query=profanity">Profanity</a> | <a href="http://lds.org/ensign/1983/05/profanity-and-swearing?lang=eng&query=profanity">Profanity</a> | <a href="http://lds.org/ensign/1991/02/sin-on-the-tips-of-our-tongues?lang=eng&query=profanity">Profanity</a> | <a href="http://simple.wikipedia.org/wiki/Profanity">Profanity</a> | <a href="http://transition.fcc.gov/eb/oip/">Profanity</a></strong> (oh, my!). For fun, George Carlin's "Seven Words You Can Never Say On TV" have been added to make things a bit more interesting and to allow the god of randomity to enjoy hi/es/r job.</li>
+        <li>
+          The headlines are temporal, gone as soon as you leave this page or click "Generate Headlines" again.
+        </li>
+        <li>
+          In the <strong>Generator Configuration</strong>
+          below you can change some settings <em>if you want to</em>.
+          <ul>
+            <li>
+              <strong>Number of words</strong>: Total number of words in the "pool" that the generator draws from. By default, the total number of available words is filled in. Change it as you wish, or not.
+            </li>
+            <li>
+              <strong>Number of headlines</strong>: how much head you want (how many headlines are generated, with a maximum of 40).
+            </li>
+            <li>
+              <strong>Headline length</strong>: a range from the fewest words in a headline to the maximum words in a headline. The headlines are then generated between those two numbers, but still randomly. <a href="http://weird-lilith.livejournal.com/601860.html">Pretty fucking cool</a>
+              , eh? [<a href="http://www.maniacworld.com/f-81.htm"><em>fuck</em></a>
+              or <a href="http://en.wikipedia.org/wiki/History_of_the_word_'fuck'"><em>fuck</em></a>
+              or <a href="http://dictionary.reference.com/search?r=8&q=fuck"><em>fuck</em></a>
+              or <a href="http://www.reference.com/search?q=fuck"><em>fuck</em></a>]
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>Suggestions:</strong>
+          <ul>
+            <li>
+              try parameters that might <a href="http://www.youtube.com/watch?v=w7zDLZN_UDo">make no sense (it makes perfect sense)</a>. For example, try Number of Words = 5, Number of Headlines = 20, From 4 words to 9 words, to get some cool headlines with repetition.
+            </li>
+            <li>
+              limit the Number of words to 100 - 250. Beyond that, sometimes the headlines get out there
+            </li>
+            <li>
+              keep the headline length shorter to make a bit more sense...longer to create <a href="http://en.wikipedia.org/wiki/Absurdism">complete absurdities</a>
+            </li>
+            <li>
+              ignore all the above
+            </li>
+          </ul>
+        </li>
+        <li>
+          Click on any headline to search Google using the words in the headline. This is the <a href="http://www.cisenet.com/cisenet/writing/essays/hypertextuality.htm">hypertextuality</a>. Sometimes the search is useless, sometimes you get a <a href="http://pablopisaitalia.blogspot.com/2007/11/good-surprise-or-pain-in-ass.html">good surprise</a>.
+        </li>
+        <li>
+          Finally, if you get boring results keep clicking Generate Headlines...this usually leads to a set of good headlines.
+        </li>
+      </ul>
+      <hr style="width:65%;"/><h3>Generator Configuration</h3>
+      <div id="wordCount">
+      </div>
+      There is no need to change these settings, but you can experiment to get more interesting results:
+      <br/>
+      <strong>Number of words</strong>
+      you want to use: <input value="200" style="width:25px;" id="wordsToUse" maxlength="3">
+      <div style="display:inline;" id="limit">
+      </div>
+      <br/>
+      <strong>Number of headlines</strong>
+      to generate : <input id="numberOfHeadlines" type="text" value="20" onfocus="this.select();" style="width:20px;" maxlength="2">(1 to 40)
+      <br/>
+      <strong>Headline length</strong>: Random, from <input type="text" id="min" value="3" onfocus="this.select();" style="width:20px;" maxlength="2">words to <input type="text" id="max" value="6" onfocus="this.select();" style="width:20px;" maxlength="2">words (allowable range is 2 to 30)
+      <br/>
+      <br/>
+      <span style="color:#660000;font-weight:bold;">Give it a try&ndash;click the button!</span>
+      <input type="button" onclick="writeHeadlines();" value="Generate Headlines"><hr/>
+      <div id="content">
+      </div>
+      <hr/>
+      <br/>
+      <br/>
+      
+      
+     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        
+        $('input').click(function() {
+          $(this).select();
+        });
+        
+      arrayTerms = new Array("Six", "Dead", "in", "City", "Hall", "piss", "shooting", "Georgia", "refinery", "explosion", "hurts", "dozens", "House", "sends", "stimulus", "plan", "to", "Bush", "Screening", "technology", "stuck", "in", "pipeline", "Congress", "tits", "sends", "economic", "aid", "plan", "to", "Bush", "McCain", "all", "but", "clinches", "Romney", "departs", "Evangelical", "leader", "endorses", "Huckabee", "McCain", "Looks", "Toward", "The", "General", "Election", "fuck", "Clinton", "Focuses", "on", "McCain", "in", "Virginia", "Stimulus", "Package", "Approved", "Two", "suspects", "arrested", "in", "Bhutto", "killing", "FBI", "arrests", "man", "in", "1983", "militant", "robbery", "Indian", "doctor", "cunt", "suspect", "arrested", "in", "Nepal", "Philippines", "strives", "to", "control", "boom", "on", "paradise", "isle", "Simona", "Peycheva", "fighting", "back", "from", "spinal", "surgery", "Iraq's", "returnees", "crave", "a", "future", "free", "God", "shit", "bloodshed", "White-painted", "bride", "motherfucker", "honors", "Bulgarian", "Muslim", "rite", "cocksucker", "Kenya", "artist", "paints", "peace", "messages", "in", "Nairobi", "slum", "Fears", "rise", "of", "Shiite", "power", "vacuum", "in", "Iraq", "Chadians", "find", "refuge", "in", "Cameroon", "Africa", "questions", "circumcision", "advice", "Slain", "SWAT", "Officer", "Represents", "Best", "Of", "The", "Best", "ICE", "Agents", "Raid", "Kosovo", "soldier", "Manufacturer", "Animals", "Left", "In", "Abandoned", "Russia", "House", "After", "Foreclosure", "Iran", "Woman", "Takes", "On", "Recording", "Industry", "Fallout", "From", "Latest", "Bird", "Flu", "Discovery", "Impacts", "Minnesota", "Resurgence", "Of", "Arts", "In", "The", "Northland", "Student", "Kills", "2", "Self", "at", "Louisiana", "College", "Obama", "says", "stronger", "than", "McCain", "on", "climate", "change", "Missouri", "suburb", "shaken", "by", "gunman's", "rampage", "Microsoft", "Google", "prepare", "for", "antitrust", "battle", "Politics", "in", "Washington", "State", "Are", "Lively", "Though", "Puzzling", "Nazi", "climate", "Should", "Focus", "Like", "the", "Other", "Steve", "Clemens", "wife", "used", "steroids", "Renfro", "Killed", "by", "Heroin", "ODd", "Annan", "Sees", "Progress", "in", "Kenya", "Peace", "Talks", "Israel", "makes", "small", "cut", "in", "Gaza's", "electricity", "supply", "Benazir", "Bhutto", "was", "killed", "by", "suicide", "bomb", "blast", "Scotland", "Yard", "Archbishop", "of", "Canterbury", "says", "he", "made", "no", "proposals", "for", "Shariah", "law", "India", "seeks", "Amit\'s", "deportation", "Nebraska", "Supreme", "Court", "Outlaws", "Electric", "Chair", "Police", "say", "6", "missing", "dozens", "hurt", "in", "sugar", "refinery", "explosion", "Hezbollah", "Sumner", "County", "sues", "Mulvane", "over", "casino", "annexation", "New", "Arms", "Race", "Unleashed", "in", "the", "World", "Annan", "Sees", "Progress", "in", "Kenya", "Peace", "Talks", "Israel", "makes", "small", "cut", "in", "Gaza's", "electricity", "supply", "NATO", "May", "Supply", "More", "Troops", "for", "Afghanistan", "Residents", "Take", "Stock", "of", "Damage", "in", "Chad", "Pilots", "Attacked", "on", "New", "Zealand", "Plane", "photos", "show", "reality", "of", "whaling", "Probe", "of", "Report", "on", "Sarkozy\'s", "Love", "Life", "Spiegel", "Online", "Gates", "Says", "Anger", "Over", "Iraq", "Hurts", "Afghan", "Effort", "Clinton", "may", "spurn", "debate", "over", "remark", "Turks", "set", "to", "ease", "headscarf", "ban", "Anti-gay", "police", "complaints", "rise", "Man", "guilty", "of", "barrel", "wife", "murder", "UN", "envoy", "heads", "to", "Kenya", "hotspots", "Oil", "firms", "ordered", "to", "Niger", "Delta", "Police", "killed", "in", "Algeria", "ambush", "Shattered", "dreams", "Japan", "PM", "angry", "over", "Sumo", "death", "Snow", "China", "greets", "New", "Year", "US", "resumes", "Thai", "military", "aid", "Tajikistan", "facing", "food", "crisis", "New", "cabinet", "unveiled", "in", "Thailand", "Two", "dead", "in", "Indonesia", "landslide", "Khmer", "Rouge", "leader", "asks", "for", "bail", "China", "dumpling", "factory", "cleared", "BHP", "makes", "takeover", "bid", "for", "Rio", "US", "slaps", "new", "sanctions", "on", "Burma", "Gaza", "rocket", "barrage", "hits", "Israel", "Egypt", "torturing", "HIV", "sufferers", "Russia", "suspicious", "over", "Iran", "test", "Two", "Irish", "women", "trapped", "in", "Gaza", "Khomeini", "grandson", "in", "poll", "ban", "UK", "prince", "rebukes", "US", "on", "Iraq", "New", "flag", "hoisted", "over", "Baghdad", "Israeli", "raids", "kill", "nine", "in", "Gaza", "Row", "over", "killing", "of", "Iraqi", "family", "Algerian", "blasts", "suspects", "arrested", "CIA", "admits", "waterboardings", "Arab", "education", "falling", "behind", "Spanish", "Facebook", "site", "launched", "German", "trade", "surplus", "shrinking", "Berlin", "premiere", "for", "Stones", "movie", "Picasso", "art", "stolen", "from", "gallery", "Canada-France", "military", "talks", "Mafiosi", "held", "in", "US", "and", "Sicily", "Airbus", "predicts", "air", "travel", "boom", "Gazprom", "threat", "to", "Ukraine", "gas",  "GOP", "blocks", "nominee", "for", "consumer", "agency", "Holder", "debates", "definition", "lying", "at", "hearing", "Sandusky's", "wife", "says", "he", "would", "not", "harm", "children", "Putin", "accuses", "U.S.", "of", "stoking", "Russian", "protests", "Iran", "shows", "alleged", "U.S.", "stealth", "drone", "TV", "Women", "left", "work", "force", "last", "month,", "as", "men", "joined", "JPMorgan", "CEO", "Jamie", "Dimon", "doesn’t", "know", "his", "tax", "rate", "Jon", "Huntsman", "to", "Americans:", "Trust", "me", "Payroll", "tax", "cut", "extension:", "The", "best", "worst", "option", "Dominique", "Strauss-Kahn", "hotel", "video", "surveillance", "released", "Pujols,", "Angels", "agree", "to", "10-year,", "$250", "million", "deal", "Scotland", "lashed", "by", "monster", "storm", "Woman", "uses", "diamond", "ring", "to", "escape", "being", "buried", "alive", "Holiday", "shopping", "scams", "to", "look", "out", "for", "Price", "for", "access", "to", "Vogue", "digital", "archive:", "$1,575", "See-through", "tablets", "coming", "soon?", "This", "Could", "Be", "Big",   "Top", "5", "weirdest", "natural", "formations", "Wanderlust", "Map", "divides", "New", "Jersey", "into", "regional", "stereotypes", "'CIA", "prison", "found", "in", "Bucharest", "Scotland", "battered", "by", "165mph", "winds", "Remains", "of", "274", "US", "troops", "dumped", "MF", "Global", "boss", "sorry", "for", "failure", "Obama", "backs", "morning-after", "pill", "ruling", "Fierce", "clashes", "in", "Somali", "capital", "Pakistan", "actress", "defends", "topless", "shoot");
+      
+      wordCount();
+      
+      })
+      function wordCount(){
+        var totalWordsInArray = arrayTerms.length;
+        var arrayNoDupes = unique(arrayTerms);
+        $("#wordCount").html("<p>Currently, there are <strong>" + arrayNoDupes.length + " unique words</strong> in the word bank, all taken from actual headlines.");
+        $("#limit").html("(1 to " + arrayNoDupes.length + ")");
+        
+      }
+      
+      var newRandomArray;
+      /**
+       * Removes duplicates in the array 'a'
+       * @author Johan K�nng�rd, http://dev.kanngard.net
+       */
+      function unique(a){
+        tmp = new Array(0);
+        for (i = 0; i < a.length; i++) {
+          if (!contains(tmp, a[i])) {
+            tmp.length += 1;
+            tmp[tmp.length - 1] = a[i];
+          }
+        }
+        return tmp;
+      }
+      
+      /**
+       * Returns true if 's' is contained in the array 'a'
+       * @author Johan K�nng�rd, http://dev.kanngard.net
+       */
+      function contains(a, e){
+        for (j = 0; j < a.length; j++) 
+          if (a[j] == e) 
+            return true;
+        return false;
+      }
+      
+      function buildRandomArray(array){
+        tmp = new Array(0);
+        for (i = 0; i < array.length; i++) {
+          randomNumber = Math.floor(Math.random() * array.length);
+          randomWord = array[randomNumber];
+          tmp.length += 1;
+          tmp[tmp.length - 1] = randomWord;
+        }
+        return tmp;
+        
+        
+      }
+      
+      function writeHeadlines(){
+        //remove dupes
+        var arrayNoDupes = unique(arrayTerms);
+        var arrayRandom = buildRandomArray(arrayNoDupes);
+        var wordsToExclude;
+        if (!parseInt($("#wordsToUse").val())) {
+          wordsToExclude = 0;
+        }
+        else {
+          wordsToExclude = arrayRandom.length - parseInt($("#wordsToUse").val());
+        }
+        var headlines = "";
+        var openP = "";
+        var output = "<p>Click on any headline to perform a Google search (must be online).</p>";
+        var headlineLength;
+        var randomNumber;
+        var randomWord = "";
+        var minWords;
+        var maxWords;
+        //handle min/max length
+        if (!parseInt($("#min").val())) {
+          minWords = 3;
+        }
+        else {
+          minWords = parseInt($("#min").val());
+        }
+        if (!parseInt($("#min").val())) {
+          maxWords = 8;
+        }
+        else {
+          maxWords = parseInt($("#max").val());
+        }
+        if (minWords < 1) {
+          minWords = 1;
+        }
+        if (maxWords > 30) {
+          minWords = 30;
+        }
+        maxWords = maxWords - minWords + 1;
+        
+        //handle number of headlines
+        var numberOfHeadlines = $("#numberOfHeadlines").val();
+        if (numberOfHeadlines < 1 || numberOfHeadlines > 40) {
+          numberOfHeadlines = 20;
+        }
+        
+        //set up google href 
+        var href = "<a target='_blank' href='http://www.google.com/search?hl=en&q=";
+        var hrefEnd = "&btnG=Google+Search'>";
+        var queryString = "";
+        
+        openP += "<p>" + href;
+        arrayRandom.length = arrayRandom.length - wordsToExclude;
+        
+        for (var i = 0; i < numberOfHeadlines; i++) {
+          headlineLength = Math.floor(maxWords * Math.random() + minWords);
+          queryString = "";
+          if (headlineLength < 2) 
+            headlineLength = 2;
+          for (var j = 0; j < headlineLength; j++) {
+            randomNumber = Math.floor(Math.random() * arrayRandom.length);
+            randomWord = arrayRandom[randomNumber];
+            queryString += randomWord + "+";
+            
+            if (j == 0) {
+              headlines += capitalizeMe(randomWord) + " ";
+            }
+            else {
+              headlines += randomWord.toLowerCase() + " ";
+            }
+          }
+          output += openP + queryString + hrefEnd + headlines + "</a></p>";
+          headlines = "";
+        }
+        $("#content").html(output);
+        location.href = "#wordCount";
+      }
+      
+      function capitalizeMe(word){
+        val = word;
+        newVal = '';
+        val = val.split(' ');
+        for (var c = 0; c < val.length; c++) {
+          newVal += val[c].substring(0, 1).toUpperCase() +
+          val[c].substring(1, val[c].length) +
+          ' ';
+        }
+        return newVal;
+      }
+      
+      
+      
+      //-->
+    </script>
+      
+      
+    </body>
+  </html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>The Quick Start iBox Guide</title>
+	<script type="text/javascript" src="/scripts/ibox/ibox.js"></script>
+    <script type="text/javascript">iBox.setPath('/scripts/ibox/');</script>
+    <link rel="stylesheet" href="/scripts/ibox/ibox.css" type="text/css" media="screen"/>
+
+</head>
+
+<body>
+    
+    
+    <h2 id="documents"><span><a href="#top">Top</a></span>Documents</h2>
+    <p>iBox supports overlaying documents as well as the standard images. This is achieved in the same fashion 
+as an image, but instead of showing the image, it shows the document you are linking to.</p>
+    <h3>Example</h3>
+    <p><a href="index.html" rel="ibox" title="Loading External HTML File using AJAX" 
+>ibox-ajax-test.html</a></p>
+    
+		
+		<div id="inner_content" style="display:none;">
+    <div style="background:#000000;color:#ffffff;border:1px dashed #FFFFFF;padding:15px;margin:15px;">	
+    	<h3>It is a hidden div!</h3>
+    	<p>If you were to view source, you would find a div called 'inner_content'. This is that div. We 
+have used CSS to set its display property to none, but using <a href="/blog/p_ibox.html">iBox</a>, 
+you can clearly see it as an overlay. Hurrah!</p>
+    	<p>It is even styled. Oh so pretty it is</p>
+    </div>
+    </div>
+    <p>
+    <a href="#inner_content" rel="ibox" title="Loading Internal HTML Content" >#inner_content</a>
+    </p>
+</body>
+</html>
